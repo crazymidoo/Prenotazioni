@@ -1,0 +1,13 @@
+
+<h1> Form di inserimento</h1>
+<p>Nome:</p> <input name="nome" #nome> <br>
+<p>Cognome:</p> <input name="cognome" #cognome> <br>
+<p>Indirizzo:</p> <input name="Indirizzo" #Indirizzo> <br>
+<p>Telefono:</p> <input name="Telefono" #Telefono> <br>
+<p>Email:</p> <input name="Email" #Email> <br>
+<p>Data Prenotazione:</p> <input name="DataPrenotazione" #DataPrenotazione> <br>
+<p>Ora Prenotazione:</p> <input name="OraPrenotazione" #OraPrenotazione> <br>
+
+<button type="button" (click)="salva(nome, cognome, Indirizzo, Telefono, Email, DataPrenotazione, OraPrenotazione )">salva</button>
+
+<app-lista-prenotazioni [vettPrenotazione]="vettPrenotazioni"></app-lista-prenotazioni>

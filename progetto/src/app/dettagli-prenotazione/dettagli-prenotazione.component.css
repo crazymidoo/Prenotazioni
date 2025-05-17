@@ -1,0 +1,45 @@
+/* Contenitore della prenotazione */
+div {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 500px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Titolo del nome e cognome */
+div h3 {
+  margin: 0 0 10px;
+  color: #333;
+  font-size: 20px;
+}
+
+/* Testo della data e ora */
+div b {
+  color: #555;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Separatore */
+div hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+/* Bottone estendi */
+div button {
+  padding: 8px 16px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+div button:hover {
+  background-color: #0056b3;
+}

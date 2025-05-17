@@ -1,0 +1,56 @@
+:host {
+  display: block;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Titolo con nome e cognome */
+h3 {
+  margin: 0 0 10px;
+  color: #333;
+  font-size: 20px;
+}
+
+/* Testo della data e ora */
+b {
+  color: #555;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Separatore */
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+/* Pulsante Estendi */
+button {
+  padding: 8px 16px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* JSON visualizzato (opzionale) */
+pre {
+  background-color: #f8f8f8;
+  padding: 10px;
+  border-radius: 4px;
+  overflow-x: auto;
+  font-size: 13px;
+  color: #333;
+}
